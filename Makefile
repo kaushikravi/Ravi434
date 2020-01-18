@@ -7,7 +7,7 @@ install:
 
 test:
 	python -m pytest -vv --cov=Ravi434lib tests/*.py
-	python -m pytest --nbval notebookRavi434.ipynb
+	python -m pytest --nbval notebook.ipynb
 
 
 lint:
